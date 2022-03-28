@@ -378,6 +378,7 @@ a{
 }
 .liste_article2 a{
     display: flex;
+    flex-basis: 100%;
 }
 .liste_article2{
     display: flex;
@@ -400,6 +401,7 @@ a{
     width: 160px;
     object-fit: cover;
     border-radius: 16px 0px 0px 16px;
+    flex-shrink: 0;
 }
 .description{
     display: flex;
@@ -616,8 +618,10 @@ li a{
     }
     .liste_hebergements{
         flex-direction: column-reverse;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 10px;
+        padding-right: 34px;
         flex-grow: 1;
     }
     .liste_hebergements .liste_article2{
@@ -685,7 +689,9 @@ li a{
     /* act à Marseille */
 
     .actMarseille{
-        margin: 16px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 34px;
     }
     .actMarseille_row{
         margin-bottom: 48px;
@@ -697,6 +703,7 @@ li a{
     #vieux_port img, #calanques img{
         height: 430px;
     }
+   
 }
 
 /* Mobile */
@@ -723,12 +730,12 @@ li a{
         padding-bottom: 5px;
         font-size: 16px;
     }
-        .border_container{      
-            width: 50%;      
-            display: flex;       
-            justify-content: center;        
-            margin:0px;
-            border-bottom: 3px solid #F2F2F2
+    .border_container{      
+        width: 50%;      
+        display: flex;       
+        justify-content: center;        
+        margin:0px;
+        border-bottom: 3px solid #F2F2F2
     }    
     .border_container:hover{        
         color: #0065fc;        
@@ -862,8 +869,9 @@ li a{
 /* Hebergements à Marseille */
 
     .liste_hebergements{
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0;
         gap: 30px;
     }
     .liste_hebergements .populaires{
@@ -874,15 +882,21 @@ li a{
     }
     .titre_heb{
         margin-top: 0px;
-        margin-left: 16px;
+        margin-left: 18px;
         font-size: 21px;
     }
 
+    .liste_article1 a{
+        width: 97%;
+    }
     .liste_article1 article img{
         height: 125px;
+        
     }
     .liste_article1 article{
         height: 210px;
+        margin: 5px;
+        width: 97%;
     }
     .liste_article1 article h3{
         font-size: 18px;
@@ -909,13 +923,14 @@ li a{
 /* Activités à Marseille */
 
     .actMarseille{
-        margin-left: 16px;
-        margin-right: 10px;
+        margin-left: 10px;
+        margin-right: 3px;
+        padding: 0;
     }
     .actMarseille H2{
         font-size: 20px;
         font-weight:700;
-        margin-left: 12px;
+        margin-left: 5px;
     }
     .actMarseille_row{
         flex-direction:column;
