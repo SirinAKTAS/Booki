@@ -67,6 +67,7 @@ a{
     font-weight: 700;
     margin-bottom: 4px;
     margin-top: 0;
+    
 }
 
 .intro p{
@@ -139,7 +140,7 @@ a{
 
 
 .borderéco{
-    border: 2px solid #C0C0C0;
+    border: 2px solid #d9d9d9;
     border-radius: 32px;
     display: flex;
     align-items: center;
@@ -161,7 +162,7 @@ a{
 /*Familiales*/
 
 .borderfamille{
-    border: 2px solid #C0C0C0;
+    border: 2px solid #d9d9d9;
     border-radius: 32px;
     display: flex;
     align-items: center;
@@ -191,7 +192,7 @@ a{
 
 
 .borderromantique{
-    border: 2px solid #C0C0C0;
+    border: 2px solid #d9d9d9;
     border-radius: 32px;
     display: flex;
     align-items: center;
@@ -215,7 +216,7 @@ a{
 /*Animaux*/
 
 .borderanimaux{
-    border: 2px solid #C0C0C0;
+    border: 2px solid #d9d9d9;
     border-radius: 32px;
     display: flex;
     align-items: center;
@@ -325,7 +326,7 @@ a{
     padding: 5px;
     margin: 26px;
     width: 315px;
-    box-shadow: 4px 4px 4px #d9d9d9;
+    box-shadow: 0px 1px 10px 1px #d9d9d9;
 }
 .liste_article1 article img{
     border-radius: 16px 16px 0px 0px;
@@ -468,7 +469,6 @@ a{
 }
 
 .actMarseille article{
-    border: 1px solid #f2f2f2;
     border-radius: 16px;
     box-shadow: 4px 4px 4px#d9d9d9;
 }
@@ -485,6 +485,7 @@ a{
     font-size: 20px;
     font-weight: 700;
     padding-left: 16px;
+    padding-bottom: 10px;
 }
 
 #vieux_port img, #calanques img{
@@ -544,7 +545,7 @@ li a{
 /* desktop */
 
 @media screen and (min-width: 992px){
-    body{
+    #page{
         max-width: 1920px
     }
 
@@ -562,8 +563,8 @@ li a{
         padding-top: 44px;
     }
     .intro{
-        margin-right: 20px;
-        margin-left: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
     .intro h1{
         font-size: 22px;
@@ -621,7 +622,7 @@ li a{
         margin-left: 0px;
         margin-right: 0px;
         padding-left: 10px;
-        padding-right: 34px;
+        padding-right: 10px;
         flex-grow: 1;
     }
     .liste_hebergements .liste_article2{
@@ -691,7 +692,7 @@ li a{
     .actMarseille{
         margin: 0px;
         padding-left: 10px;
-        padding-right: 34px;
+        padding-right: 10px;
     }
     .actMarseille_row{
         margin-bottom: 48px;
@@ -699,6 +700,7 @@ li a{
     .actMarseille_column h3{
         font-size: 10px;
         font-weight: bold;
+    
     }
     #vieux_port img, #calanques img{
         height: 430px;
@@ -720,6 +722,7 @@ li a{
     }
     nav img{
         padding-left: 45px;
+        margin-bottom: 20px;
     }
     nav ul{
         width:100%;
@@ -727,7 +730,7 @@ li a{
     }
     nav a{
         margin: 0px;
-        padding-bottom: 5px;
+        padding-bottom: 0px;
         font-size: 16px;
     }
     .border_container{      
@@ -744,7 +747,7 @@ li a{
     }
     nav a:hover{
         border:none;
-        padding-top: 0px;
+        padding-top: 3px;
     }
 
 /* Intro */
@@ -757,15 +760,15 @@ li a{
     }
 
     .barrederecherche i{
-        height: 60px;
+        height: 55px;
     }
     .barrederecherche button{
         font-size: 0px;
         border-radius: 16px;
         padding: 0 2%;
         margin-left: -10px;
-        width: 20%;
-        height: 60px;
+        width: 55px;
+        height: 55px;
     }
     .fa-solid.fa-magnifying-glass{
         display: flex;
@@ -780,13 +783,15 @@ li a{
         font-size: 17px;
         padding-left: 6px;
         padding-right: 10px;
+        flex: 8;
     }
     
     .fa-solid.fa-location-dot{
         font-size: 22px;
+        flex: 2;
     }
     form{
-        height: 60px
+        height: 55px;
     }
     .barrederecherche{
         margin-bottom: 34px;
@@ -807,26 +812,26 @@ li a{
         font-size: 20px;
     }
     .économique,.familiales,.Romantiques,.Animaux{
-        font-size: 16px;
-        font-weight: bold;
-        padding: 10px 12px;
+        font-size: 17px;
+        font-weight: 700;
+        padding: 13px 18px;
     }
      .fa-solid.fa-money-bill-wave{
-        padding: 12px 11px;
-        font-size: 20px;
+        padding: 16px 16px;
+        font-size: 16px;
     }
     .fa-solid.fa-child{
-        width: 43px;
-        height: 43px;
-        font-size: 20px;
+        width: 50px;
+        height: 49px;
+        font-size: 16px;
     }
     .fa-solid.fa-heart{
-        padding: 11px 11px;
-        font-size: 20px;
+        padding: 16px 16px;
+        font-size: 16px;
     }
     .fa-solid.fa-dog{
-        padding: 11px 10px;
-        font-size: 20px;
+        padding: 16px 16px;
+        font-size: 16px;
     }
 
 /* Infos */ 
@@ -837,17 +842,17 @@ li a{
 /* Les plus populaires */
 
     #lesPlusPopulaires{
-        margin-left: 25px;
+        margin-left: 20px;
         margin-top: 30PX;
         margin-bottom: 16px;
-        font-weight: 800;
+        font-weight: 700;
         font-size: 20px;
     }
     .liste_hebergements .liste_article2{
         flex-direction: column;
     }
     .liste_article2 article{
-        width: 85%;
+        width: 350px;
         margin:10px 0; 
     }
     .liste_article2 article img{
@@ -876,27 +881,34 @@ li a{
     }
     .liste_hebergements .populaires{
         border-radius: 0px;
+        padding-bottom: 35px;
     }
     .liste_hebergements .heb_marseille{
         background-color: white;
+        padding: 0 10px;
     }
     .titre_heb{
         margin-top: 0px;
-        margin-left: 18px;
-        font-size: 21px;
+        margin-left: 3px;
+        margin-bottom: 16px;
+        font-size: 20px;
+        font-weight: 700;
     }
 
-    .liste_article1 a{
-        width: 97%;
-    }
+    
     .liste_article1 article img{
         height: 125px;
         
     }
+    .heb_marseille a{
+        width: 100%;
+    }
     .liste_article1 article{
         height: 210px;
-        margin: 5px;
-        width: 97%;
+        margin: 0px;
+        width: 100%;
+        margin-bottom: 10px;
+       
     }
     .liste_article1 article h3{
         font-size: 18px;
@@ -913,8 +925,8 @@ li a{
         background-color: white;
     }
     .titre_afficher{
-        margin-left: 14px;
-        font-weight: 700;
+        margin-left: 0px;
+        font-weight: 600;
         font-size: 18px;
         margin-bottom: 0px;
     }
@@ -945,6 +957,7 @@ li a{
     .actMarseille_column h3{
         font-size: 16px;
     }
+    
     #vieux_port img, #calanques img, #pomegues img, #Longchamp img, #frioul img, #notreDame img{
         height: 150px;
     }
@@ -959,10 +972,14 @@ li a{
 
     footer{
         flex-direction:column;
+        padding-bottom: 35px;
     }
     .colonne{
         margin-left: 18px;
-        width: 100%;
         margin-bottom: 0px;
+        width: 350px;
+    }
+    .liste li{
+        font-size: 16px;
     }
 }
